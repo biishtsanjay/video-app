@@ -6,9 +6,9 @@ import { fetchFromAPI } from "../utils/fetchFromAPI";
 const Body = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
 
-  useEffect(() => {
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`);
-  }, [selectedCategory]);
+  // useEffect(() => {
+  //   fetchFromAPI(`search?part=snippet&q=${selectedCategory}`);
+  // }, [selectedCategory]);
 
   return (
     <div className="flex">

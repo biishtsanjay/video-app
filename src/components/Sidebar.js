@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react"; // , { useEffect, useState }
+// import { Link } from "react-router-dom";
 import { sideNavCategories, sidenavSubscriptions } from "./constants";
 import { Stack, Box, Divider } from "@mui/material";
 import "../index.css";
@@ -14,7 +14,7 @@ const Sidebar = (setSelectedCategory) => {
       return (
         <button
           className="category-btn"
-          onClick={() => setSelectedCategory(category.name)}
+          // onClick={() => setSelectedCategory(category.name)}
           key={category.name}
         >
           <span style={{ width: "3rem" }}>{category.icon}</span>
