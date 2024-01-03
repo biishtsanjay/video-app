@@ -4,16 +4,16 @@ Overview
 This React.js application serves as a feature-rich video streaming platform, offering a seamless and engaging user experience for content consumption.
 
 Features🚀
-A highly scalable, responsive and performant video streaming platform.
+A highly scalable, responsive and performant video streaming platform  🎬 .
 Achieved reduction in loading time and optimized search functionality through debouncing , thus reducing network calls.
 Responsive Design: Ensures optimal viewing experience across devices.
-Search Functionality: Efficient content discovery through a robust search feature.
-User Profile: Personalized user profiles for enhanced customization.
+Search Functionality  🔍: Efficient content discovery through a robust search feature.
+User Profile 🧑‍💼: Personalized user profiles for enhanced customization.
 
 Tech Stack🧨
-React.jsReact.js ⚛️: : Frontend library for building user interfaces.
-Redux🔄: State management for predictable state updates.
-React Router🌐: Navigation for a single-page application.
+React.js ⚛️: : Frontend library for building user interfaces.
+Redux 🔄: State management for predictable state updates.
+React Router 🌐: Navigation for a single-page application.
 Responsive Design 📏: Utilizes CSS media queries and flexbox for a consistent experience.
 Tailwind CSS 😍.
 
