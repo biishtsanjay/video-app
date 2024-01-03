@@ -11,11 +11,11 @@ Search Functionality: Efficient content discovery through a robust search featur
 User Profile: Personalized user profiles for enhanced customization.
 
 Tech Stack🧨
-React.js: Frontend library for building user interfaces.
-Redux: State management for predictable state updates.
-React Router: Navigation for a single-page application.
-Responsive Design: Utilizes CSS media queries and flexbox for a consistent experience.
-Tailwind.
+React.jsReact.js ⚛️: : Frontend library for building user interfaces.
+Redux🔄: State management for predictable state updates.
+React Router🌐: Navigation for a single-page application.
+Responsive Design 📏: Utilizes CSS media queries and flexbox for a consistent experience.
+Tailwind CSS 😍.
 
 Installation🥸
 Clone the repository: git clone https://github.com/biishtsanjay/video_app_yt.git
