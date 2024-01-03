@@ -1,4 +1,4 @@
-Video Streaming Platform - React.js Application
+<h1>Video Streaming Platform - React.js Application</h1>
 
 Overview 
 This React.js application serves as a feature-rich video streaming platform, offering a seamless and engaging user experience for content consumption.
