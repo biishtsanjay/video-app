@@ -53,7 +53,6 @@ const VideoContainer = () => {
 
     const data = id === "live" ? await vdos : await vdos?.json();
 
-    console.log(data.items);
     setVideos(data?.items);
 
     dispatch(

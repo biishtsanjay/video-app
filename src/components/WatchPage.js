@@ -62,7 +62,6 @@ const WatchPage = () => {
     );
 
     const data = await videoDetails.json();
-    // console.log(data);
     if (data.items) {
       const channelId = data?.items[0]?.snippet?.channelId;
       const id = data?.items[0]?.snippet?.localized?.title;
