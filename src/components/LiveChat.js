@@ -60,7 +60,7 @@ const LiveChat = () => {
           }}
         />
         <button
-          className="mx-2 px-2 py-1 border border-black rounded-md
+          className="mx-2 px-2 py-1 border border-black 
          bg-green-400 "
         >
           Send

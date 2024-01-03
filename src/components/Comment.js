@@ -3,9 +3,9 @@ import React from "react";
 const Comment = ({ data }) => {
   const { name, text } = data;
   return (
-    <div className="flex shadow-sm bg-gray-100 p-2 rounded-lg">
+    <div className="flex shadow-sm bg-gray-100 p-2 ">
       <img
-        style={{ borderRadius: "8px", width: "2rem", height: "2rem" }}
+        style={{ width: "2rem", height: "2rem" }}
         src="https://yt4.ggpht.com/ytc/AOPolaQI4Oy7cGpX9TvAMuTHNibLEcFezqoBv9W2fQ=s32-c-k-c0x00ffffff-no-rj"
         alt="avatar"
       />

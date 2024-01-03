@@ -4,6 +4,7 @@ const appSlice = createSlice({
   name: "app",
   initialState: {
     isMenuOpen: true,
+    Theme: true,
   },
   reducers: {
     toggleMenu: (state) => {
@@ -12,7 +13,10 @@ const appSlice = createSlice({
     closeMenu: (state) => {
       state.isMenuOpen = false;
     },
+    themeChange: (state, action) => {
+      state.Theme = action.payload;
+    },
   },
 });
-export const { toggleMenu, closeMenu } = appSlice.actions;
+export const { toggleMenu, closeMenu, themeChange } = appSlice.actions;
 export default appSlice.reducer;

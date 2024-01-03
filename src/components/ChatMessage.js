@@ -4,7 +4,6 @@ const ChatMessage = ({ name, message }) => {
   return (
     <div className="flex items-center shadow-lg">
       <img
-        style={{ borderRadius: "8px" }}
         alt="img"
         src="https://yt4.ggpht.com/ytc/AOPolaQI4Oy7cGpX9TvAMuTHNibLEcFezqoBv9W2fQ=s32-c-k-c0x00ffffff-no-rj"
       />

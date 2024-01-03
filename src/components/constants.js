@@ -1,15 +1,4 @@
-import {
-  HomeOutlined,
-  PlayCircleOutlined,
-  SubscriptionsOutlined,
-  History,
-  WatchLaterOutlined,
-  SlowMotionVideo,
-  FileDownloadOutlined,
-  AccountCircle,
-} from "@mui/icons-material";
-
-const YOUTUBE_API_KEY = "AIzaSyBIdmtUDCOWnC2A0k2lSyixBGB1TnS-OiI";
+export const YOUTUBE_API_KEY = "AIzaSyBIdmtUDCOWnC2A0k2lSyixBGB1TnS-OiI";
 
 export const YOUTUBE_VIDEO_API =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
@@ -18,23 +7,8 @@ export const YOUTUBE_VIDEO_API =
 export const YOUTUBE_SEARCH_API =
   "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
-export const OFFSET_LIVE_CHAT = 25;
+export const LIVE_CHAT_COUNT = 20;
 
-export const sideNavCategories = [
-  { icon: <HomeOutlined />, name: "Home" },
-  { icon: <PlayCircleOutlined />, name: "Music" },
-  { icon: <SubscriptionsOutlined />, name: "Subscription" },
-  { icon: <History />, name: "History" },
-  { icon: <WatchLaterOutlined />, name: "Watch Later" },
-  { icon: <SlowMotionVideo />, name: "Shorts" },
-  { icon: <FileDownloadOutlined />, name: "Downloads" },
-];
-export const sidenavSubscriptions = [
-  { icon: <AccountCircle />, name: "Apple" },
-  { icon: <AccountCircle />, name: "Tesla" },
-  { icon: <AccountCircle />, name: "React" },
-  { icon: <AccountCircle />, name: "TSeries" },
-  { icon: <AccountCircle />, name: "MrBeast" },
-  { icon: <AccountCircle />, name: "WWE" },
-  { icon: <AccountCircle />, name: "PewDiePie" },
-];
+// export const LIVE_STREAMS = `https://www.googleapis.com/youtube/v3/search?key=${YOUTUBE_API_KEY}&eventType=live&type=video&part=snippet&maxResults=25`;
+
+export const OFFSET_LIVE_CHAT = 25;
