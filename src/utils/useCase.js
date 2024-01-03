@@ -250,29 +250,29 @@ export function generateRandomName() {
   return nameList[Math.floor(Math.random() * nameList.length)];
 }
 
-const characters =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+// const characters =
+//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
-var sentences = [
-  "This video is so entertaining, I couldn't stop watching!",
-  "I learned something new today, thanks to this video.",
-  "The editing in this video is on point! 👌",
-  "Who else can't get enough of this content?",
-  "I can't believe I've never seen this channel before; it's amazing!",
-  "This deserves way more views and likes!",
-  "The information here is so helpful. You've got a new subscriber!",
-  "I was laughing so hard at [timestamp]. 😂",
-  "The visuals and graphics in this video are stunning!",
-  "This video made my day! Thank you for sharing.",
-  "Amazing 🕺",
-  "This is mind-blowing!",
-  "I can't stop watching your videos!",
-  "You're doing an amazing job with your content.",
-  "I'm addicted to this channel now.",
-  "I've learned so much from your videos.",
-  "Every video is a masterpiece.",
-  "The humor in your videos always brightens my day.",
-  "I'm hitting the like button before even watching - that's how much I trust your content!",
-  "Your channel is a hidden gem on YouTube.",
-  "I've binge-watched your entire playlist!",
-];
+// var sentences = [
+//   "This video is so entertaining, I couldn't stop watching!",
+//   "I learned something new today, thanks to this video.",
+//   "The editing in this video is on point! 👌",
+//   "Who else can't get enough of this content?",
+//   "I can't believe I've never seen this channel before; it's amazing!",
+//   "This deserves way more views and likes!",
+//   "The information here is so helpful. You've got a new subscriber!",
+//   "I was laughing so hard at [timestamp]. 😂",
+//   "The visuals and graphics in this video are stunning!",
+//   "This video made my day! Thank you for sharing.",
+//   "Amazing 🕺",
+//   "This is mind-blowing!",
+//   "I can't stop watching your videos!",
+//   "You're doing an amazing job with your content.",
+//   "I'm addicted to this channel now.",
+//   "I've learned so much from your videos.",
+//   "Every video is a masterpiece.",
+//   "The humor in your videos always brightens my day.",
+//   "I'm hitting the like button before even watching - that's how much I trust your content!",
+//   "Your channel is a hidden gem on YouTube.",
+//   "I've binge-watched your entire playlist!",
+// ];
